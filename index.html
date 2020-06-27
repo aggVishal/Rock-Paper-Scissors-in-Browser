@@ -1,12 +1,14 @@
 <html>
 <head>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+<!--webcam.js is library managed by Google to render images from webcam and convert it to tensors-->
 <script src="webcam.js"></script>
 <script src="rps-dataset.js"></script>
 </head>
 <body>
 	<div>
 		<div>
+			<!--Define Video Area in our page-->
 			<video autoplay playsinline muted id="wc" width="224" height="224"></video>
 		</div>
 	</div>
